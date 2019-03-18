@@ -21,11 +21,8 @@ def find_the_cheese(will_it_cheese)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  cheese_types.each do |cheese|
+  will_it_cheese.find { |cheese| cheese_types.include (cheese))
      
-     if will_it_cheese.include?(cheese)
-       puts cheese
-    end
-  end 
+    
  
 end
