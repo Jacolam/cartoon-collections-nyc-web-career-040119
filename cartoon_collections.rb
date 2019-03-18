@@ -20,6 +20,6 @@ end
 def find_the_cheese(will_it_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-    will_it_cheese.find { |is_this_cheese| cheese == is_this_cheese}
+    will_it_cheese.find { |is_this_cheese| cheese_types == is_this_cheese}
  
 end
