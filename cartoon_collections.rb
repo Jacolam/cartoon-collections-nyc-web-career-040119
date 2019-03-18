@@ -23,6 +23,8 @@ def find_the_cheese(will_it_cheese)
     
     if will_it_cheese.include?(cheese)
       return cheese
+    else
+      nil 
     end
   end
  
