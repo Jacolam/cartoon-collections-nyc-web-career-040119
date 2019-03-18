@@ -17,7 +17,7 @@ def long_planeteer_calls(planeteer)
   planeteer.length > 4 }
 end
 
-def find_the_cheese{(will_it_cheese)}
+def find_the_cheese(will_it_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   cheese_types.each do |cheese|
