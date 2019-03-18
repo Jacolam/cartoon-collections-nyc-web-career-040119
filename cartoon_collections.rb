@@ -19,5 +19,7 @@ end
 
 def find_the_cheese{(will_it_cheese)}
   cheese_types = ["cheddar", "gouda", "camembert"]
-  will_it_cheese.find { |cheese| cheese ==
+  cheese_types.each do |cheese|
+    will_it_cheese.find { |is_this_cheese| cheese ==
+  end
 end
